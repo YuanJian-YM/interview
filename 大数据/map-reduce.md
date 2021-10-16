@@ -1,0 +1,1 @@
+[map reduce原理](https://blog.csdn.net/weixin_45366499/article/details/106892489)
