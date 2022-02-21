@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libalgorithm.a  CMakeFiles/algorithm.dir/src/algorithm.cpp.o CMakeFiles/algorithm.dir/src/list.cpp.o CMakeFiles/algorithm.dir/src/sort.cpp.o CMakeFiles/algorithm.dir/src/tree.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libalgorithm.a

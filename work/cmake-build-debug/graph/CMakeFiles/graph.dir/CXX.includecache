@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bytedance/Documents/workspace/c++/work/graph/include/graph.h
+vector
+-
+
+/Users/bytedance/Documents/workspace/c++/work/graph/src/graph.cpp
+iostream
+-
+queue
+-
+stack
+-
+../include/graph.h
+/Users/bytedance/Documents/workspace/c++/work/graph/include/graph.h
+

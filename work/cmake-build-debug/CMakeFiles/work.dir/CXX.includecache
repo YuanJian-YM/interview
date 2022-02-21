@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bytedance/Documents/workspace/c++/work/algorithm/include/algorithm.h
+vector
+-
+string
+-
+
+/Users/bytedance/Documents/workspace/c++/work/algorithm/include/list.h
+
+/Users/bytedance/Documents/workspace/c++/work/algorithm/include/sort.h
+vector
+-
+
+/Users/bytedance/Documents/workspace/c++/work/algorithm/include/tree.h
+vector
+-
+
+/Users/bytedance/Documents/workspace/c++/work/graph/include/graph.h
+vector
+-
+
+/Users/bytedance/Documents/workspace/c++/work/main.cpp
+iostream
+-
+vector
+-
+graph/include/graph.h
+/Users/bytedance/Documents/workspace/c++/work/graph/include/graph.h
+algorithm/include/algorithm.h
+/Users/bytedance/Documents/workspace/c++/work/algorithm/include/algorithm.h
+algorithm/include/list.h
+/Users/bytedance/Documents/workspace/c++/work/algorithm/include/list.h
+algorithm/include/sort.h
+/Users/bytedance/Documents/workspace/c++/work/algorithm/include/sort.h
+algorithm/include/tree.h
+/Users/bytedance/Documents/workspace/c++/work/algorithm/include/tree.h
+

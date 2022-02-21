@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bytedance/Documents/workspace/c++/work/algorithm/include/algorithm.h
+vector
+-
+string
+-
+
+/Users/bytedance/Documents/workspace/c++/work/algorithm/src/algorithm.cpp
+iostream
+-
+../include/algorithm.h
+/Users/bytedance/Documents/workspace/c++/work/algorithm/include/algorithm.h
+
